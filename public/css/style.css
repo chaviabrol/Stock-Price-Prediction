@@ -1,0 +1,135 @@
+.navbar{
+    position: relative;
+}
+.nav-img{
+    background-image: url("https://media-public.canva.com/MADQ5pw7MLI/1/screen_2x.jpg");
+    background-position :center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+}
+.cover-head{
+    font-family: 'Gothic A1', sans-serif;
+    padding-top: 80px;
+    padding-left: 40px;
+    font-size: 60px;
+    color: rgb(223, 215, 215);
+    line-height: 1.3;
+}
+.nav-img h3{
+    padding-left: 40px;
+    padding-bottom: 50px;
+    color:rgb(124, 115, 124);
+    font-size: 25px;
+    font-family: 'Sarabun', sans-serif;
+}
+.cover-btn{
+    margin-left: 40px;
+    border-radius: 0.5rem;
+    border: 1px black;
+    padding: 0.6%;
+    background-color: gray;
+    font-size: 27px;
+}
+.cover-btn a{
+    text-decoration: none;
+    color: black;
+}
+.cover-btn:hover{
+    background-color:rgb(85, 81, 85) ;
+}  
+.carousel-img img{
+    padding:0px 15% 0px 15%;
+    height: 300px;
+ 
+}
+.carousel-article{
+    padding: 30px;
+    background-color: black;
+    
+}
+.carousel-img{
+    
+    padding: 0px 10% 0px 10%;
+}
+.carousel-main{
+    margin-right: 30%;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.carousel-img h1{
+    color: blanchedalmond;
+
+}
+.stock-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.stock-btn:hover{
+    background-color:rgb(85, 81, 85) ;
+}  
+.video-section{
+    padding: 30px;
+    background-color: rgb(26, 23, 23);
+}
+.video-section .video-content{
+    padding: 20px;
+}
+footer{
+    background-color: #99A3A4;
+    padding: 50px;
+}
+footer .contact-us{
+    text-align: center;
+}
+
+.contact-us a{
+    color:rgb(80, 77, 77);
+    padding: 5px;
+}
+/* Company */
+
+.company{
+    background-color: rgb(53, 49, 49);
+    padding: 50px 20px 70px 20px; 
+}
+.company-col{
+    padding: 50px;
+    text-align: center;
+}
+.company-col:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.company-card:hover{
+    background-color: rgb(184, 177, 177);
+}
+.company-foot button a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+@media only screen and (max-width: 766px){
+    .company-col{
+        padding: 50px  100px 30px 100px;
+    }
+}
+/* General page */
+.general{
+    background-color: rgb(158, 147, 147);
+}
+.general h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Footer */
+.fa:hover{
+    color: rgb(34, 31, 31);
+}
+
+.fab:hover{
+    color: rgb(34, 31, 31);
+}
